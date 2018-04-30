@@ -2,10 +2,7 @@
 
 use alienfile;
 
-
-plugin 'PkgConfig' => (
-  pkg_name => 'tidy',
-);
+plugin 'PkgConfig' => ( pkg_name => 'tidy', );
 
 share {
 
@@ -13,14 +10,18 @@ share {
 
     start_url 'https://github.com/htacg/tidy-html5/archive/5.6.0.tar.gz';
 
-    # the first one which succeeds will be used
-    download [ 'wget %{.meta.start_url}' ];
-    download [ 'curl -o %{.meta.start_url}' ];
+    download ['wget %{.meta.start_url}'];
+    download ['curl -o %{.meta.start_url}'];
 
-    extract [ 'tar xf %{.install.download}' ];
+    extract ['tar xf %{.install.download}'];
 
     build [
-        [ '%{cmake}', -G => '%{cmake_generator}', '-DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=true', '-DCMAKE_INSTALL_PREFIX:PATH=%{.install.prefix}', '.' ],
+        [
+            '%{cmake}',
+            -G => '%{cmake_generator}',
+            '-DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=true',
+            '-DCMAKE_INSTALL_PREFIX:PATH=%{.install.prefix}', '.'
+        ],
         '%{make}',
         '%{make} install',
     ];
