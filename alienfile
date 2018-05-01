@@ -11,10 +11,13 @@ share {
 
     plugin 'Build::CMake';
 
-    start_url 'https://github.com/htacg/tidy-html5/archive/5.6.0.tar.gz';
+    start_url 'https://github.com/htacg/tidy-html5/tags';
 
-    download ['wget %{.meta.start_url}'];
-    download ['curl -o %{.meta.start_url}'];
+    plugin 'Download' => (
+        filter  => qr/(\d\.)+\d\.tar\.gz$/,
+        version => qr/([0-9\.]+)/,
+        prefer  => 1,
+    );
 
     extract ['tar xf %{.install.download}'];
 
