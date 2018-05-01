@@ -4,7 +4,7 @@ use Alien::Build::MM;
 my $abmm = Alien::Build::MM->new;
 
 WriteMakefile($abmm->mm_args(
-  ABSTRACT => 'tidy-html5',
+  ABSTRACT => 'Download and install HTML Tidy',
   DISTNAME => 'Alien-TidyHTML5',
   NAME     => 'Alien::TidyHTML5',
   VERSION_FROM => 'lib/Alien/TidyHTML5.pm',
