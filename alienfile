@@ -35,7 +35,7 @@ share {
 };
 
 gather [
-  [ 'pkg-config --modversion tidy', \'%{.runtime.version}' ],
-  [ 'pkg-config --cflags     tidy', \'%{.runtime.cflags}'  ],
-  [ 'pkg-config --libs       tidy', \'%{.runtime.libs}'    ],
+    [ 'pkg-config --modversion tidy', \'%{.runtime.version}' ],
+    [ 'pkg-config --cflags     tidy', \'%{.runtime.cflags}' ],
+    [ 'pkg-config --libs       tidy', \'%{.runtime.libs}' ],
 ];
