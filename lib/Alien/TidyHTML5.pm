@@ -9,4 +9,10 @@ use base qw/ Alien::Base /;
 
 our $VERSION = 'v0.1.0';
 
+=head1 SEE ALSO
+
+L<http://www.html-tidy.org/>
+
+=cut
+
 1;

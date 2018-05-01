@@ -6,6 +6,10 @@ Alien::TidyHTML5 - Download and install HTML Tidy
 
 version v0.1.0
 
+# SEE ALSO
+
+[http://www.html-tidy.org/](http://www.html-tidy.org/)
+
 # SOURCE
 
 The development version is on github at [https://github.com/robrwo/Alien-TidyHTML5](https://github.com/robrwo/Alien-TidyHTML5)
