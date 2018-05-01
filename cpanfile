@@ -29,7 +29,6 @@ on 'develop' => sub {
   requires "Pod::Coverage::TrustPod" => "0";
   requires "Test::EOF" => "0";
   requires "Test::EOL" => "0";
-  requires "Test::Kwalitee" => "1.21";
   requires "Test::MinimumVersion" => "0";
   requires "Test::More" => "0.88";
   requires "Test::NoTabs" => "0";
