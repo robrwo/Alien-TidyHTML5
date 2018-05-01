@@ -2,7 +2,10 @@
 
 use alienfile;
 
-plugin 'PkgConfig' => ( pkg_name => 'tidy', );
+plugin 'PkgConfig' => (
+    pkg_name        => 'tidy',
+    minimum_version => '5.6.0',
+);
 
 share {
 
