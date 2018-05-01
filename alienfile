@@ -19,7 +19,7 @@ share {
         prefer  => 1,
     );
 
-    extract ['tar xf %{.install.download}'];
+    plugin 'Extract' => 'tar.gz';
 
     build [
         [
