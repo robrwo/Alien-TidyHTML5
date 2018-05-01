@@ -1,0 +1,10 @@
+Alien-TidyHTML5-*/
+Alien-TidyHTML5-*.tar.gz
+.build/
+cpanfile.snapshot
+Makefile
+*.bak
+blib/
+pm_to_blib
+_alien/
+MYMETA.*
