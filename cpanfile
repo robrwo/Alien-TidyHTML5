@@ -1,7 +1,4 @@
 requires "Alien::Base" => "0";
-requires "base" => "0";
-requires "strict" => "0";
-requires "warnings" => "0";
 
 on 'build' => sub {
   requires "Alien::Build" => "0.32";
