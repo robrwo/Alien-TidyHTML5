@@ -1,6 +1,8 @@
 Revision history for Alien-TidyHTML5
 
 {{$NEXT}}
+  [Documentation]
+  - Added a description and author acknowledgement to POD.
 
 v0.1.0    2018-05-02 00:29:34+01:00 Europe/London
 - Initial release.
