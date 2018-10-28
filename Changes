@@ -1,6 +1,8 @@
 Revision history for Alien-TidyHTML5
 
 {{$NEXT}}
+
+v0.2.0    2018-10-28 14:24:32+00:00 Europe/London
   [Enhancements]
   - Look for alternative package names, "tidy5" and "tidy-html5", #1.
 

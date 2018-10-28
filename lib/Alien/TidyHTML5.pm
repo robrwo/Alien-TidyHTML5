@@ -15,7 +15,7 @@ use List::Util qw/ first /;
 
 use namespace::autoclean;
 
-our $VERSION = 'v0.2.0';
+our $VERSION = 'v0.2.1';
 
 =head1 DESCRIPTION
 
