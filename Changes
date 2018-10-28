@@ -1,6 +1,9 @@
 Revision history for Alien-TidyHTML5
 
 {{$NEXT}}
+  [Enhancements]
+  - Look for alternative package names, "tidy5" and "tidy-html5", #1.
+
   [Toolchain]
   - Bumped prerequisite version for DZ plugin.
 
