@@ -4,6 +4,8 @@ Revision history for Alien-TidyHTML5
   [Enhancements]
   - Look for alternative package names, "tidy5" and "tidy-html5", #1.
 
+  - Add exe_file method to return the path of the tidy executable, #2.
+
   [Toolchain]
   - Bumped prerequisite version for DZ plugin.
 

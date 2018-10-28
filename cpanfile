@@ -1,4 +1,6 @@
 requires "Alien::Base" => "0";
+requires "List::Util" => "0";
+requires "namespace::autoclean" => "0";
 
 on 'build' => sub {
   requires "Alien::Build" => "0.32";
@@ -28,6 +30,7 @@ on 'configure' => sub {
 
 on 'develop' => sub {
   requires "Pod::Coverage::TrustPod" => "0";
+  requires "Test::CleanNamespaces" => "0.15";
   requires "Test::EOF" => "0";
   requires "Test::EOL" => "0";
   requires "Test::MinimumVersion" => "0";

@@ -7,6 +7,12 @@ use warnings;
 
 use base qw/ Alien::Base /;
 
+
+use File::Spec::Functions qw/ catfile /;
+use List::Util qw/ first /;
+
+use namespace::autoclean;
+
 our $VERSION = 'v0.1.2';
 
 =head1 DESCRIPTION
@@ -18,6 +24,24 @@ install of tidy on your system. If found it will use that. If it
 cannot be found, the source code will be downloaded from the official
 git repository, and it will be installed in a private share location
 for the use of other modules.
+
+=head1 METHODS
+
+=head2 C<exe_file>
+
+This returns the path of the F<tidy> executable.
+
+=cut
+
+sub exe_file {
+    my ($self) = @_;
+    if ( my $bin = $self->bin_dir ) {
+        return first { -x $_ } map { catfile( $bin, $_ ) } qw/ tidy tidy5 /;
+    }
+    else {
+        return undef;
+    }
+}
 
 =head1 SEE ALSO
 

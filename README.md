@@ -16,6 +16,12 @@ cannot be found, the source code will be downloaded from the official
 git repository, and it will be installed in a private share location
 for the use of other modules.
 
+# METHODS
+
+## `exe_file`
+
+This returns the path of the `tidy` executable.
+
 # SEE ALSO
 
 [http://www.html-tidy.org/](http://www.html-tidy.org/)
