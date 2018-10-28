@@ -2,6 +2,8 @@ package Alien::TidyHTML5;
 
 # ABSTRACT: Download and install HTML Tidy
 
+use v5.8;
+
 use strict;
 use warnings;
 

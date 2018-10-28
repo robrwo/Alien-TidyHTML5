@@ -9,6 +9,8 @@ Revision history for Alien-TidyHTML5
   [Toolchain]
   - Bumped prerequisite version for DZ plugin.
 
+  - Explicitly specified a minimum Perl version.
+
 v0.1.1    2018-10-25 17:50:49+01:00 Europe/London
   [Documentation]
   - Added a description and author acknowledgement to POD.

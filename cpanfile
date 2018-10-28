@@ -1,6 +1,7 @@
 requires "Alien::Base" => "0";
 requires "List::Util" => "0";
 requires "namespace::autoclean" => "0";
+requires "perl" => "v5.8.0";
 
 on 'build' => sub {
   requires "Alien::Build" => "0.32";
