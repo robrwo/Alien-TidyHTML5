@@ -37,12 +37,7 @@ This returns the path of the F<tidy> executable.
 
 sub exe_file {
     my ($self) = @_;
-    if ( my $bin = $self->bin_dir ) {
-        return first { -x $_ } map { catfile( $bin, $_ ) } qw/ tidy tidy5 /;
-    }
-    else {
-        return undef;
-    }
+    $self->runtime_prop->{command};
 }
 
 =head1 SEE ALSO
