@@ -49,9 +49,10 @@ Robert Rothenberg <rrwo@cpan.org>
 The initial development of this module was sponsored by Science Photo
 Library [https://www.sciencephoto.com](https://www.sciencephoto.com).
 
-# CONTRIBUTOR
+# CONTRIBUTORS
 
-Slaven Rezić <slaven@rezic.de>
+- Slaven Rezić <slaven@rezic.de>
+- Graham Ollis <plicease@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
