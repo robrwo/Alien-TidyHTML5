@@ -29,16 +29,19 @@ for the use of other modules.
 
 =head1 METHODS
 
-=head2 C<exe_file>
+=head2 C<exe>
 
-This returns the path of the F<tidy> executable.
+This returns the name of the F<tidy> executable, which I<may> be
+the path to the executable.
 
 =cut
 
-sub exe_file {
+sub exe {
     my ($self) = @_;
     $self->runtime_prop->{command};
 }
+
+
 
 =head1 SEE ALSO
 

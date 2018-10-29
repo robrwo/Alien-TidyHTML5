@@ -18,9 +18,10 @@ for the use of other modules.
 
 # METHODS
 
-## `exe_file`
+## `exe`
 
-This returns the path of the `tidy` executable.
+This returns the name of the `tidy` executable, which _may_ be
+the path to the executable.
 
 # SEE ALSO
 

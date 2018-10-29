@@ -4,6 +4,9 @@ Revision history for Alien-TidyHTML5
   [Enhancements]
   - Improved the alienfile configuration, to fix #1 (Graham Ollis).
 
+  [Incompatabilities]
+  - Renamed "exe_file" to "exe".
+
   [Bug Fixes]
   - Undid the check for alternative package names, #2 (Graham Ollis)
 
