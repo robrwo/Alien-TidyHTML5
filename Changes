@@ -1,6 +1,8 @@
 Revision history for Alien-TidyHTML5
 
 {{$NEXT}}
+  [Other]
+  - Added Alien::cmake3 as a requirement.
 
 v0.3.0    2018-10-29 21:24:29+00:00 Europe/London
   [Enhancements]
