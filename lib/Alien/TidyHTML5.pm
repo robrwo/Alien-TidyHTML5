@@ -49,6 +49,16 @@ L<http://www.html-tidy.org/>
 
 L<Alien::Build::Manual::AlienUser>
 
+=head2 Other CPAN Modules
+
+L<HTML::Tidy5> uses the the tidy library, but may not work well with
+this installation. You may want to use L<HTML::T5> as an alternative.
+
+L<HTML::Valid> includes a version of the tidy library as part of the
+distribution.
+
+L<HTML::Tidy> uses an older (pre-HTML5) version of the tidy library.
+
 =head1 append:AUTHOR
 
 The initial development of this module was sponsored by Science Photo

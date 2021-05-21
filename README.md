@@ -4,7 +4,7 @@ Alien::TidyHTML5 - Download and install HTML Tidy
 
 # VERSION
 
-version v0.3.2
+version v0.3.3
 
 # DESCRIPTION
 
@@ -28,6 +28,16 @@ the path to the executable.
 [http://www.html-tidy.org/](http://www.html-tidy.org/)
 
 [Alien::Build::Manual::AlienUser](https://metacpan.org/pod/Alien::Build::Manual::AlienUser)
+
+## Other CPAN Modules
+
+[HTML::Tidy5](https://metacpan.org/pod/HTML::Tidy5) uses the the tidy library, but may not work well with
+this installation. You may want to use [HTML::T5](https://metacpan.org/pod/HTML::T5) as an alternative.
+
+[HTML::Valid](https://metacpan.org/pod/HTML::Valid) includes a version of the tidy library as part of the
+distribution.
+
+[HTML::Tidy](https://metacpan.org/pod/HTML::Tidy) uses an older (pre-HTML5) version of the tidy library.
 
 # SOURCE
 
