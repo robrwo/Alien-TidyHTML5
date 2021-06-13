@@ -31,8 +31,9 @@ the path to the executable.
 
 ## Other CPAN Modules
 
-[HTML::Tidy5](https://metacpan.org/pod/HTML::Tidy5) uses the the tidy library, but may not work well with
-this installation. You may want to use [HTML::T5](https://metacpan.org/pod/HTML::T5) as an alternative.
+[HTML::Tidy5](https://metacpan.org/pod/HTML::Tidy5) uses the the tidy library, but may not make use of the
+library installed by this distribution. You may want to use
+[HTML::T5](https://metacpan.org/pod/HTML::T5) as an alternative.
 
 [HTML::Valid](https://metacpan.org/pod/HTML::Valid) includes a version of the tidy library as part of the
 distribution.

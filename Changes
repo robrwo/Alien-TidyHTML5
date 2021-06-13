@@ -1,6 +1,8 @@
 Revision history for Alien-TidyHTML5
 
 {{$NEXT}}
+  [Documentation]
+  - Clarified wording in the related CPAN modules section.
 
 v0.3.3    2021-05-21 14:05:28+01:00 Europe/London
   [Documentation]
