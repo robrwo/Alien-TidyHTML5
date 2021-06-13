@@ -4,7 +4,7 @@ Alien::TidyHTML5 - Download and install HTML Tidy
 
 # VERSION
 
-version v0.3.3
+version v0.3.4
 
 # DESCRIPTION
 
