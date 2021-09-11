@@ -21,7 +21,7 @@ our $VERSION = 'v0.3.4';
 
 This distribution provides tidy (a.k.a. "libtidy" or "html-tidy")
 v5.6.0 or newer, so that it can be used by other Perl
-distributions. . It does this by first trying to detect an existing
+distributions. It does this by first trying to detect an existing
 install of tidy on your system. If found it will use that. If it
 cannot be found, the source code will be downloaded from the official
 git repository, and it will be installed in a private share location
