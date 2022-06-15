@@ -9,7 +9,7 @@ use warnings;
 
 use base qw/ Alien::Base /;
 
-our $VERSION = 'v0.3.5';
+our $VERSION = 'v0.3.6';
 
 =head1 DESCRIPTION
 
