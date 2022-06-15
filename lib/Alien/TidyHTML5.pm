@@ -9,12 +9,6 @@ use warnings;
 
 use base qw/ Alien::Base /;
 
-
-use File::Spec::Functions qw/ catfile /;
-use List::Util qw/ first /;
-
-use namespace::autoclean;
-
 our $VERSION = 'v0.3.5';
 
 =head1 DESCRIPTION

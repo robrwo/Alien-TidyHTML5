@@ -1,6 +1,9 @@
 Revision history for Alien-TidyHTML5
 
 {{$NEXT}}
+  [Bug Fixes]
+  - Removed unused prereqs.
+
   [Documentation]
   - Bumped copyright year.
 
