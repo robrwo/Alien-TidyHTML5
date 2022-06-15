@@ -27,18 +27,18 @@ the path to the executable.
 
 [http://www.html-tidy.org/](http://www.html-tidy.org/)
 
-[Alien::Build::Manual::AlienUser](https://metacpan.org/pod/Alien::Build::Manual::AlienUser)
+[Alien::Build::Manual::AlienUser](https://metacpan.org/pod/Alien%3A%3ABuild%3A%3AManual%3A%3AAlienUser)
 
 ## Other CPAN Modules
 
-[HTML::Tidy5](https://metacpan.org/pod/HTML::Tidy5) uses the the tidy library, but may not make use of the
+[HTML::Tidy5](https://metacpan.org/pod/HTML%3A%3ATidy5) uses the the tidy library, but may not make use of the
 library installed by this distribution. You may want to use
-[HTML::T5](https://metacpan.org/pod/HTML::T5) as an alternative.
+[HTML::T5](https://metacpan.org/pod/HTML%3A%3AT5) as an alternative.
 
-[HTML::Valid](https://metacpan.org/pod/HTML::Valid) includes a version of the tidy library as part of the
+[HTML::Valid](https://metacpan.org/pod/HTML%3A%3AValid) includes a version of the tidy library as part of the
 distribution.
 
-[HTML::Tidy](https://metacpan.org/pod/HTML::Tidy) uses an older (pre-HTML5) version of the tidy library.
+[HTML::Tidy](https://metacpan.org/pod/HTML%3A%3ATidy) uses an older (pre-HTML5) version of the tidy library.
 
 # SOURCE
 

@@ -7,6 +7,8 @@ Revision history for Alien-TidyHTML5
   [Documentation]
   - Bumped copyright year.
 
+  - Fix encoding of links in README.
+
   [Toolchain]
   - Remove bad MANIFEST.SKIP rules.
 
